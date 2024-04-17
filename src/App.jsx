@@ -8,6 +8,7 @@ export default function App() {
   const [projectsState, setProjectsState] = useState({
     selectedProjectId: undefined,
     projects: [],
+    tasks:[]
   });
 
   function handleStartAddProject() {
